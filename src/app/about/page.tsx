@@ -18,7 +18,7 @@ const About = () => {
         <div className="md:w-[60%] flex flex-col justify-center px-8">
           <h1 className="text-2xl md:text-4xl font-bold">About Me</h1>
           <p className="mt-6 text-sm md:text-base">
-            Hi Everyone, I am Anubhav Singh from Bihar
+            Hi, I am Anubhav Singh from India
           </p>
           <div className="mt-8 text-sm md:text-base">
             {/* <p>Some of my competitive programming achievements are:</p> */}
