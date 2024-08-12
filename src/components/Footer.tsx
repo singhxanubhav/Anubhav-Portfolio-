@@ -6,10 +6,10 @@ import { GithubIcon, InstagramIcon, LinkedInIcon, TwitterIcon } from "@/componen
 const Footer = () => {
   return (
     <div className="mt-auto py-10">
-      <p className="text-center text-sm md:text-base">Designed and Developed by Shivam Bhadani</p>
+      <p className="text-center text-sm md:text-base">Designed and Developed by Anubhav Singh</p>
       <div className="flex justify-center items-center flex-wrap gap-8 mt-4">
         <motion.a
-          href="https://github.com/shivam-bhadani"
+          href="https://github.com/singhxanubhav"
           target="_blank"
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
@@ -17,7 +17,7 @@ const Footer = () => {
           <GithubIcon className="w-6" />
         </motion.a>
         <motion.a
-          href="https://www.linkedin.com/in/shivambhadani/"
+          href="https://www.linkedin.com/in/anubhav-singh-5b26711a5/"
           target="_blank"
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
@@ -25,7 +25,7 @@ const Footer = () => {
           <LinkedInIcon className="w-6" />
         </motion.a>
         <motion.a
-          href="https://x.com/shivambhadani_"
+          href="https://x.com/anubhavxsingh_"
           target="_blank"
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}
@@ -33,7 +33,7 @@ const Footer = () => {
           <TwitterIcon className="w-6" />
         </motion.a>
         <motion.a
-          href="https://www.instagram.com/shivambhadani_/"
+          href=""
           target="_blank"
           whileHover={{ y: -6 }}
           whileTap={{ scale: 1 }}

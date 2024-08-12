@@ -4,12 +4,12 @@ import { IoIosStar } from "react-icons/io";
 
 const About = () => {
   const ACHIEVEMENTS = [
-    "Achieved Highest Rating of 1766 (Expert) on Codeforces",
-    "Global Rank 156 in Codeforces Round 875 (Div. 2)",
-    "Global Rank 527 in Codeforces Round 865 (Div. 2)",
-    "Achieved Highest Rating of 2029 (5 Star) on CodeChef",
-    "Global Rank 617 (India Rank 411) in Google Kickstart Round G 2022",
-    "Guardian (Max Rating 2315) in leetcode",
+    // "Achieved Highest Rating of 1766 (Expert) on Codeforces",
+    // "Global Rank 156 in Codeforces Round 875 (Div. 2)",
+    // "Global Rank 527 in Codeforces Round 865 (Div. 2)",
+    // "Achieved Highest Rating of 2029 (5 Star) on CodeChef",
+    // "Global Rank 617 (India Rank 411) in Google Kickstart Round G 2022",
+    // "Guardian (Max Rating 2315) in leetcode",
   ];
 
   return (
@@ -18,11 +18,10 @@ const About = () => {
         <div className="md:w-[60%] flex flex-col justify-center px-8">
           <h1 className="text-2xl md:text-4xl font-bold">About Me</h1>
           <p className="mt-6 text-sm md:text-base">
-            Hi Everyone, I am Shivam Bhadani from Jharkhand, India. I have done
-            my graduation from IIT Kanpur.
+            Hi Everyone, I am Anubhav Singh from Bihar
           </p>
           <div className="mt-8 text-sm md:text-base">
-            <p>Some of my competitive programming achievements are:</p>
+            {/* <p>Some of my competitive programming achievements are:</p> */}
           </div>
           <ul>
             {ACHIEVEMENTS.map((achievement, key) => (

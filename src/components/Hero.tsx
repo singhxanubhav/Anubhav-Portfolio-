@@ -15,19 +15,19 @@ const Hero = () => {
       text: "am",
     },
     {
-      text: "Shivam",
+      text: "Anubhav",
     },
     {
-      text: "Bhadani,",
+      text: "Singh,",
     },
     {
-      text: "a",
+      text: "A",
     },
     {
-      text: "Software",
+      text: "Full Stack",
     },
     {
-      text: "Engineer.",
+      text: "Developer.",
       className: "text-blue-500 dark:text-blue-500",
     },
   ];

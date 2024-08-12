@@ -21,11 +21,11 @@ const Contact = () => {
               <div>
                 <span className="font-semibold">Email:</span>{" "}
                 <a
-                  href="mailto:shivambhadani19@gmail.com"
+                  href="mailto:anubhavsinghbkj@gmail.com"
                   target="_blank"
                   className="text-blue-700 dark:text-blue-200"
                 >
-                  shivambhadani19@gmail.com
+                  anubhavsinghbkj@gmail.com
                 </a>
               </div>
             </li>
@@ -36,11 +36,11 @@ const Contact = () => {
               <div>
                 <span className="font-semibold">DM on Twitter:</span>{" "}
                 <a
-                  href="https://x.com/shivambhadani_"
+                  href="https://x.com/anubhavxsingh"
                   target="_blank"
                   className="text-blue-700 dark:text-blue-200"
                 >
-                  @shivambhadani_
+                  @anubhavxsingh
                 </a>
               </div>
             </li>
@@ -51,11 +51,11 @@ const Contact = () => {
               <div>
                 <span className="font-semibold">DM on Instagram:</span>{" "}
                 <a
-                  href="https://www.instagram.com/shivambhadani_/"
+                  href="https://www.instagram.com/"
                   target="_blank"
                   className="text-blue-700 dark:text-blue-200"
                 >
-                  @shivambhadani_
+                  @anubhavsingh
                 </a>
               </div>
             </li>
@@ -64,8 +64,8 @@ const Contact = () => {
                 <ImLocation size="1.5rem" />
               </div>
               <div>
-                <span className="font-semibold">Address:</span> Marathahalli,
-                Bengaluru, PinCode - 560037, Karnataka, India
+                <span className="font-semibold">Address:</span> Patna,
+                Bihar, PinCode - 800001, India
               </div>
             </li>
           </ul>

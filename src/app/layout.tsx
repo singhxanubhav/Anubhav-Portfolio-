@@ -14,8 +14,8 @@ const inter = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Shivam Bhadani",
-  description: "Shivam Bhadani, Software Developer, IIT Kanpur Undergraduate",
+  title: "Anubhav Singh",
+  description: "Anubhav Singh, Full Stack Developer, BEU Undergraduate",
 };
 
 export default function RootLayout({

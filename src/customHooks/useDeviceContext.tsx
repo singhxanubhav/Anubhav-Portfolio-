@@ -1,10 +1,9 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import { Idevice } from "@/utils/types/Idevice";
 
-const useDeviceContext = () : Idevice => {
-  const currentDevice = () : Idevice => {
+const useDeviceContext = (): Idevice => {
+  // Function to determine device type based on window width
+  const currentDevice = (): Idevice => {
     if (typeof window !== "undefined") {
       return {
         isMobile: window.innerWidth <= 767,
@@ -12,26 +11,29 @@ const useDeviceContext = () : Idevice => {
         isDesktop: window.innerWidth >= 1024
       };
     }
+    // Default values for server-side rendering or initial load
     return {
-      isMobile: true,
+      isMobile: false,
       isTablet: false,
-      isDesktop: false
+      isDesktop: true
     };
   };
 
-  const [device, setDevice] = useState<Idevice>(currentDevice());
+  // State to hold the device type
+  const [device, setDevice] = useState<Idevice>(currentDevice);
 
+  // Update device state on window resize
   const updateDevice = () => {
     setDevice(currentDevice());
   };
 
+  // Set up event listener for window resize and clean up
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("resize", updateDevice);
-      return () => {
-        window.removeEventListener("resize", updateDevice);
-      };
-    }
+    updateDevice(); // Set initial device state
+    window.addEventListener("resize", updateDevice);
+    return () => {
+      window.removeEventListener("resize", updateDevice);
+    };
   }, []);
 
   return device;

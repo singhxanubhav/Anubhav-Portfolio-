@@ -3,10 +3,10 @@ const navItems = [
     name: "Home",
     link: "/"
   },
-  {
-    name: "Blogs",
-    link: "https://medium.com/@shivambhadani_"
-  },
+  // {
+  //   name: "Blogs",
+  //   link: "https://medium.com/@shivambhadani_"
+  // },
   {
     name: "About",
     link: "/about"

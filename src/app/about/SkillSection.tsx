@@ -6,21 +6,21 @@ const SkillSection = () => {
   const SKILLS = [
     {
       category: "Programming Language",
-      value: "C, C++, Java, JavaScript, TypeScript, Python, Go, Solidity",
+      value: "C, C++, Java, JavaScript, TypeScript, Python",
     },
     {
       category: "Frameworks/ Libraries",
       value:
-        "Springboot, Django, React.js, Next.js, Node.js, Express.js, EJS, Hardhat, Ethers.js",
+        "React.js, Next.js, Node.js, Express.js",
     },
     {
       category: "Database",
-      value: "MySQL, MongoDB, Redis",
+      value: "MySQL, MongoDB",
     },
-    {
-      category: "DevOps",
-      value: "Docker, Kubernetes, AWS",
-    },
+    // {
+    //   category: "DevOps",
+    //   value: "Docker, Kubernetes, AWS",
+    // },
   ];
   return (
     <BackgroundGradient className="rounded-[22px] w-[100%] p-4 sm:p-10 bg-white dark:bg-dark-color-2">
